@@ -1,1 +1,2 @@
-123
+## go-orm-generator
+- adapt gorm now
