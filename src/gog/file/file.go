@@ -10,7 +10,6 @@ import (
 
 func writeFile(path string, data []byte) bool {
 	path = conf.FILE_PATH + "/" + path + ".go"
-	fmt.Print("reWrite'", path)
 	if _, err := ioutil.ReadDir(path); err != nil {
 		if err = os.Mkdir(conf.FILE_PATH, os.ModePerm); err == nil {
 			log.Fatal(err)
