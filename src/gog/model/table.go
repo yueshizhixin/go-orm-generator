@@ -1,5 +1,5 @@
 package model
 
-type Table struct{
+type Table struct {
 	name string
 }

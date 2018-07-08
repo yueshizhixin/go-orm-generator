@@ -1,8 +1,8 @@
 package model
 
 type column struct {
-	name string
-	comment *string
+	name       string
+	comment    *string
 	defaultVal *string
 	columnType string
 }

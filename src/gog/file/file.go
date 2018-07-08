@@ -2,10 +2,10 @@ package file
 
 import (
 	"fmt"
-	"io/ioutil"
-	"os"
-	"log"
 	"gog/conf"
+	"io/ioutil"
+	"log"
+	"os"
 )
 
 func writeFile(path string, data []byte) bool {
